@@ -55,7 +55,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref,computed } from 'vue'
 import { UploadFilled } from '@element-plus/icons-vue'
 import { mockStudentProfile } from '@/mock/student'
 import RadarChart from '@/components/RadarChart.vue'
